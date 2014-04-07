@@ -5,8 +5,10 @@ $wgExtensionCredits['variable'][] = array(
 	'name' => 'Language Code Magic Word',
 	'author' => 'Douglas Gardner',
 	'url' => '//chippy.ch',
-	'description' => 'Adds a magic word for the currently used language code',
-	'version' => '0.0.1'
+	'description' => 'Adds a {{CURRENTLANG}} magic word for the currently used language code',
+  'version' => '0.0.2',
+  'license-name' => 'ISC',
+  'descriptionmsg' => 'currentlang-desc'
 );
 
 $wgExtensionMessagesFiles['LanguageCodeMagicWord'] = dirname( __FILE__ ) . '/LanguageCodeMagicWord.i18n.php';
